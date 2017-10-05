@@ -34,7 +34,6 @@ def makeMAPlot(df):
 
 if __name__ == '__main__':
     
-    os.chdir("C:/Users/Joe/Dropbox/Crypto/Gdax")
     data = pd.read_csv('2017.10.04_eth.csv')
     df['Price'] = df['Price'].astype(float)
 
